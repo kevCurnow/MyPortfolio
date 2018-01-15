@@ -1,5 +1,20 @@
 /* General CSS stuff goes here. */
 
 body {
-    background-color: firebrick;
+    background-color: white;
+}
+
+.columnred{
+	height: 200px;
+	background-color: red;
+}
+
+.columnblue{
+	height: 200px;
+	background-color: blue;
+}
+
+.columngreen{
+	height: 200px;
+	background-color: green;
 }

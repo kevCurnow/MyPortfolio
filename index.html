@@ -10,7 +10,7 @@
     <title>Document</title>
 
     <!-- Bootstrap core CSS Modules-->
-    <link rel="stylesheet" href="">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Belleza' rel='stylesheet'>
@@ -23,8 +23,164 @@
 <body>
 
     <!-- Navigation -->
-    <nav>
-    </nav>
+    <!--Note that the text-uppercase will set the name in caps -->
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase" id="mainNav" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle text-uppercase bg-primary text-white rounded" data-toggle="collapse" data-target=".navbar-collapse"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">EFA Starter Template</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="active">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="active">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br />
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+    <!--Bootstrap Rule of 12s - Demo Code-->
+    <div class="container">
+        <div class="col-sm-1 columnred">.col-sm-1</div>
+        <div class="col-sm-1 columnblue">.col-sm-1</div>
+        <div class="col-sm-1 columngreen">.col-sm-1</div>
+        <div class="col-sm-1 columnred">.col-sm-1</div>
+        <div class="col-sm-1 columnblue">.col-sm-1</div>
+        <div class="col-sm-1 columngreen">.col-sm-1</div>
+        <div class="col-sm-1 columnred">.col-sm-1</div>
+        <div class="col-sm-1 columnblue">.col-sm-1</div>
+        <div class="col-sm-1 columngreen">.col-sm-1</div>
+        <div class="col-sm-1 columnred">.col-sm-1</div>
+        <div class="col-sm-1 columnblue">.col-sm-1</div>
+        <div class="col-sm-1 columngreen">.col-md-1</div>
+    </div>
+    <br />
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+    <!--BOotstrap Rule of 12s - Demo Code-->
+
+    <div class="container">
+        <div class="col-md-4 columnred">.col-md-4</div>
+        <div class="col-md-4 columnblue">.col-md-4</div>
+        <div class="col-md-4 columngreen">.col-md-4</div>
+    </div>
+
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+
+    <div class="container">
+        <h1>col-sm-4</h1>
+        <p>Resize the browser window to see the effect. The only difference is sm-4.</p>
+        <div class="row">
+            <div class="col-sm-4 project" style="background-color:green">
+                <h4>Project 1</h4>
+            </div>
+            <div class="col-sm-4 project" style="background-color:white">
+                <h4>Project 2</h4>
+            </div>
+            <div class="col-sm-4 project" style="background-color:blue">
+                <h4>Project 3</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 project" style="background-color:pink">
+                <h4>Project 4</h4>
+            </div>
+            <div class="col-sm-4 project" style="background-color:green">
+                <h4>Project 5</h4>
+            </div>
+            <div class="col-sm-4 project" style="background-color:white">
+                <h4>Project 6</h4>
+            </div>
+        </div>
+    </div>
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+
+    <div class="container">
+        <div class="row">
+            <h3>Example (Push/Pull):</h3>
+
+            <!--example of pushing and pulling columns you must reset the next size screen when using push/pull -->
+
+            <div class="row" style="margin-top=20px;">
+                <div class="col-xs-12 col-md-6 col-md-push-6 col-lg-8 col-lg-push-0 thumb" style="background-color:pink">Content area</div>
+                <div class="col-xs-12 col-md-6 col-md-pull-6 col-lg-4 col-lg-pull-0 thumb" style="background-color:lightgray">Sidebar area</div>
+            </div>
+        </div>
+    </div>
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+
+    <div class="container">
+        <div class="row">
+            <h3>Example (Hidden/Visible):</h3>
+
+            <!--this image/color box will be hidden on large screens, but visible
+                        on all other view sizes-->
+
+            <div class="col-xs-12 col-sm-3 hidden-lg" style="background-color:lightblue">
+                <p>TEST TEXT</p>
+            </div>
+
+
+            <!--this can be used in the same way for visible
+                      this example above will be visible on medium screens,
+                        and hidden on xs, sm, and lg screens-->
+
+            <div class="col-xs-12 col-sm-3 visible-md" style="background-color:lightgray">
+                <p>TEST TEXT</p>
+            </div>
+        </div>
+    </div>
+
+    <!--================================
+        BOOTSTRAP DEMO: THIS BRANCH ONLY
+    ==================================-->
+
+    <div class="container">
+        <div class="row">
+            <h3>Example (Hidden/Visible):</h3>
+
+            <!--the default visible property is set to block, but you can override it to inline or inline-block -->
+
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-xs-12">
+                    <span style="width:40%; padding: 20px; background: lightblue" class="visible-md	-inline-block">Wohoo</span>
+                    <span style="width:40%; padding: 20px; background: lightblue" class="visible-md	-inline-block">Wohoo</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Header -->
     <header>
@@ -48,13 +204,15 @@
 
     <!-- Copyright -->
 
-    <!-- Modals --> 
+    <!-- Modals -->
 
     <!-- Scripts -->
 
-    <!-- Bootstrap -->
+    <!-- Bootstrap & jQuery Scripts - Note: jQuery must be first -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <!-- jQuery -->
+    <!-- jQuery 3rd Party Scripts-->
 
     <!-- Custom scripts for this template -->
     <script src="js/main.js"></script>
