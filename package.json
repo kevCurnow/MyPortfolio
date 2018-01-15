@@ -1,0 +1,20 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "\"# JavaScript-151-PortfolioStarter\"",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevCurnow/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevCurnow/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/kevCurnow/MyPortfolio#readme"
+}
