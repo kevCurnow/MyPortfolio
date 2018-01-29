@@ -118,6 +118,16 @@ Portfolio Section
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
+.image-link {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in; }
+
+/* aligns caption to center */
+.mfp-title {
+  text-align: center;
+  padding: 2px 2px; }
+
 /* CSS code for the About section. */
 /****************************
 About Section
